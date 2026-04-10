@@ -17,6 +17,7 @@ out/
 # Gradle files
 .gradle/
 build/
+.kotlin/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -31,6 +32,15 @@ local.properties
 captures/
 .externalNativeBuild
 .cxx
+
+# AndroidIDE
+.acside/
+
+# Editor temp files
+.vscode/
+*.log
+*.tmp
+*.swp
 
 # Keystore files
 *.jks
